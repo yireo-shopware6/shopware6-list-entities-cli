@@ -1,0 +1,23 @@
+{
+  "name": "yireo/shopware6-list-entities-cli",
+  "description": "List all entities from a CLI",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jisse Reitsma <jisse@yireo.com>"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Yireo\\ListEntitiesCli\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Yireo\\ListEntitiesCli\\YireoListEntitiesCli"
+  }
+}
