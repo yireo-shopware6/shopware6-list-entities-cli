@@ -18,6 +18,7 @@
     }
   },
   "extra": {
+    "label": "Yireo ListEntitiesCli",
     "shopware-plugin-class": "Yireo\\ListEntitiesCli\\YireoListEntitiesCli"
   }
 }
