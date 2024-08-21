@@ -9,26 +9,11 @@ use Symfony\Component\Console\Command\LazyCommand;
 use Symfony\Component\Console\Tester\CommandTester;
 use Yireo\ListEntitiesCli\Command\ListEntities;
 use Symfony\Bundle\FrameworkBundle\Console\Application as ConsoleApplication;
+use Yireo\ListEntitiesCli\Test\Integration\AbstractTestCase;
 
-class ListEntitiesTest extends TestCase
+class ListEntitiesTest extends AbstractTestCase
 {
-    use IntegrationTestBehaviour;
 
-    protected function setUp(): void
-    {
-        (new TestBootstrapper())
-            //->setPlatformEmbedded(false)
-            ->addCallingPlugin()
-            ->setForceInstallPlugins(false)
-            ->bootstrap();
-
-        parent::setUp();
-    }
-
-    public function getName()
-    {
-        return 'testListEntitiesExecution'; // @todo: Why is this needed?
-    }
 
     public function testListEntitiesExecution()
     {
