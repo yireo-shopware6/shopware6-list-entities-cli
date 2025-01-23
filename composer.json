@@ -18,7 +18,22 @@
     }
   },
   "extra": {
-    "label": "Yireo ListEntitiesCli",
+    "label": {
+      "de-DE": "Yireo ListEntitiesCli",
+      "en-GB": "Yireo ListEntitiesCli"
+    },
+    "description": {
+      "de-DE": "Gewoon iets",
+      "en-GB": "Gewoon iets"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
     "shopware-plugin-class": "Yireo\\ListEntitiesCli\\YireoListEntitiesCli"
   }
 }
